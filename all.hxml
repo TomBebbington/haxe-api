@@ -1,0 +1,12 @@
+-main Main
+-xml api.xml
+-lib openfl
+-neko all.n
+-D display
+-lib openfl
+--remap flash:flash
+--macro include('sys')
+--macro include('openfl')
+--macro include('flash')
+-dce no
+-cmd rm all.n
