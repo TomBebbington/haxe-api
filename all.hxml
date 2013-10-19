@@ -5,8 +5,10 @@
 -D display
 -lib openfl
 --remap flash:flash
+--remap js:js
 --macro include('sys')
 --macro include('openfl')
 --macro include('flash')
+--macro include('js')
 -dce no
 -cmd rm all.n
